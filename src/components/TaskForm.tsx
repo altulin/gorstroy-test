@@ -41,7 +41,7 @@ export function TaskForm({
   return (
     <section className="panel" aria-labelledby="form-title">
       <h2 id="form-title">Новая задача</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} autoComplete="off">
         <label>
           Название задачи
           <input

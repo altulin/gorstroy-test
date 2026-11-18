@@ -4,6 +4,8 @@
 
 [Открыть демо на GitHub Pages](https://altulin.github.io/gorstroy-test/)
 
+[Исходный код на GitHub](https://github.com/altulin/gorstroy-test)
+
 ## Запуск
 
 ```sh

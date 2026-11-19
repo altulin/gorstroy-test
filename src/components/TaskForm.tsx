@@ -41,7 +41,7 @@ export function TaskForm({
   return (
     <section className="panel" aria-labelledby="form-title">
       <h2 id="form-title">Новая задача</h2>
-      <form onSubmit={handleSubmit} autoComplete="off">
+      <form onSubmit={handleSubmit}>
         <label>
           Название задачи
           <input
@@ -59,6 +59,7 @@ export function TaskForm({
             placeholder="Имя сотрудника"
             maxLength={80}
             required
+            autoComplete="off"
           />
         </label>
         <datalist id="employees">
